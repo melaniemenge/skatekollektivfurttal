@@ -3,7 +3,6 @@ import skflogo from './assets/SKF-logo.png'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

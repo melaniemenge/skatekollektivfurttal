@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import skflogo from './assets/SKF-logo.png'
 import './App.css'
 

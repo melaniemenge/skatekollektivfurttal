@@ -24,7 +24,7 @@ function App() {
         >
           Mitglied werden
         </button>
-      </div>
+      </section>
     
       {/* 
       <section className="flex flex-col items-center py-12 px-4 bg-white">

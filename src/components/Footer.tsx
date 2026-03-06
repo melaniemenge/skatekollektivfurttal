@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 text-center">
         <p className="text-sm opacity-90">
           © {new Date().getFullYear()} Skate Kollektiv Furttal. <br/>Alle Rechte vorbehalten.
-        <br/><a href="/impressum">Impressum</a>
+        <br/><a href="/impressum" className="underline ">Impressum</a>
         </p>
       </div>
     </footer>

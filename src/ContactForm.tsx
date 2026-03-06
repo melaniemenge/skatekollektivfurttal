@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import skflogo from './assets/SKF-logo.png';
+import Header from './components/Header';
 
 const ContactForm = () => {
   const [form, setForm] = useState({
@@ -38,15 +38,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <section className="flex flex-col items-center justify-center pt-12 pb-8 px-4">
-        <a href="/">
-          <img
-            src={skflogo}
-            alt="SKF logo"
-            className="mb-6 w-64 h-64 object-contain sm:w-40 sm:h-40"
-          />
-        </a>
-      </section>
+      <Header />
 
       <div className="flex flex-col items-center justify-center min-h-screen px-4">
         <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Kontakt</h1>

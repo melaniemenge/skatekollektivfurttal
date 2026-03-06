@@ -1,6 +1,8 @@
-import skflogo from './assets/SKF-logo.png'
+
 import { useNavigate } from 'react-router-dom';
 import './App.css'
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   const navigate = useNavigate();
@@ -9,12 +11,7 @@ function App() {
     <>
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center pt-12 pb-8 px-4">
-        <img
-          src={skflogo}
-          alt="SKF logo"
-          className="mb-6 w-64 h-64 object-contain sm:w-40 sm:h-40"
-        />
-        <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-center">Skate Kollektiv Furttal</h1>
+        <Header />
         <p className="max-w-xl text-center text-gray-700 mb-6 text-base sm:text-lg">
           Wir sind das Skate Kollektiv Furttal – eine Gemeinschaft von Skateboard-Begeisterten, die sich für mehr Skate-Angebote, Events und einen offenen Austausch im Furttal einsetzen. Egal ob Anfänger:in oder Pro, bei uns bist du willkommen!
         </p>
@@ -41,6 +38,7 @@ function App() {
         </div>
       </section> 
       */} 
+      <Footer />
     </>
   )
 }

@@ -3,8 +3,6 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-8">
       <div className="container mx-auto px-6 text-center">
-        
-        <p className=" font-medium text-xl mb-2">Skate Kollektiv Furttal</p>
         <p className="text-sm opacity-90">
           © {new Date().getFullYear()} Skate Kollektiv Furttal. <br/>Alle Rechte vorbehalten.
         <br/><a href="/impressum">Impressum</a>

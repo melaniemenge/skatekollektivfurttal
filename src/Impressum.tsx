@@ -15,13 +15,13 @@ const Impressum = () => {
                         Unterdorfstrasse 11B<br/>
                         8105 Watt<br/>
                         Schweiz<br/><br/>
-                        E-Mail: verein@wskatekollektivfurttal.ch<br/>
+                        E-Mail: <a href="mailto:verein@skatekollektivfurttal.ch" className="underline decoration-solid">verein@skatekollektivfurttal.ch</a><br/>
                         Präsident: Yannick Hermann<br/>
                         Rechtsform: gemeinnütziger Verein<br/><br/>
                     </p><br/>
                     <h3>Credits</h3>
                     <p>
-                        Inhalt, Konzeption,Design und Programmierung: <a href="https://melaniemenge.ch/" className="underline decoration-solid">Melanie Menge</a>
+                        Inhalt, Konzeption,Design und Programmierung: <a href="https://melaniemenge.ch/" className="underline decoration-solid ">Melanie Menge</a>
                     </p><br/>
                     <h3>Haftungsausschluss</h3>
                     <p>

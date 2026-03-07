@@ -13,7 +13,7 @@ function App() {
       <section className="flex flex-col items-center justify-center pt-12 pb-8 px-4">
         <Header />
         <p className="max-w-xl text-center text-gray-700 mb-6 text-base sm:text-lg">
-          Wir sind das Skate Kollektiv Furttal – eine Gemeinschaft von Skateboard-Begeisterten, die sich für mehr Skate-Angebote, Events und einen offenen Austausch im Furttal einsetzen. Egal ob Anfänger:in oder Pro, bei uns bist du willkommen!
+          Wir sind das Skate Kollektiv Furttal – Wir sind ein gemeinnütziger Verein, der sich für die Förderung des Skateboardings in der Region Furttal einsetzt. Unser Ziel ist es, eine lebendige Skate-Community zu schaffen, die sich gegenseitig unterstützt und gemeinsam die Freude am Skateboarding teilt. Wir organisieren Events, Workshops und Skate-Sessions. Wir planen auch die Entwicklung von Skate-Spots und setzen uns für die Interessen der Skateboarder in der Region ein. Egal, ob du Anfänger oder erfahrener Skater bist, bei uns bist du herzlich willkommen! Werde Teil unserer Community und lass uns gemeinsam die Skateboarding-Kultur in Furttal stärken!
         </p>
         <button
           className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded shadow transition"

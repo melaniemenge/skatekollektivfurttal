@@ -47,8 +47,7 @@ const ContactForm = () => {
           />
         </a>
       </section>
-
-      <div className="flex flex-col items-center justify-center min-h-screen px-4">
+      <div className="flex flex-col items-center justify-center min-h-screen ">
         <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Kontakt</h1>
         <p className="max-w-lg text-center text-gray-700 mb-8">
           Willst du Teil unserers Vereins werden oder möchtest du mehr über das Skate Kollektiv Furttal erfahren? Kontaktiere uns gerne über das folgende Formular!

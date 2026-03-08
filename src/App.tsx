@@ -12,12 +12,15 @@ function App() {
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center pt-12 pb-8 px-4">
         <Header />
+        <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-center">Skate Kollektiv Furttal</h1>
         <p className="max-w-xl text-center text-gray-700 mb-6 text-base sm:text-lg">
-          Wir sind das Skate Kollektiv Furttal – Wir sind ein gemeinnütziger Verein, der sich für die Förderung des Skateboardings in der Region Furttal einsetzt. Unser Ziel ist es, eine lebendige Skate-Community zu schaffen, die sich gegenseitig unterstützt und gemeinsam die Freude am Skateboarding teilt. Wir organisieren Events, Workshops und Skate-Sessions. Wir planen auch die Entwicklung von Skate-Spots und setzen uns für die Interessen der Skateboarder in der Region ein. Egal, ob du Anfänger oder erfahrener Skater bist, bei uns bist du herzlich willkommen! Werde Teil unserer Community und lass uns gemeinsam die Skateboarding-Kultur in Furttal stärken!
+          Wir sind das Skate Kollektiv Furttal – Wir sind ein gemeinnütziger Verein, der sich für die Förderung des Skateboardings in der Region Furttal einsetzt. 
+          Egal, ob du Anfänger oder erfahrener Skater bist, bei uns bist du herzlich willkommen! 
+          Werde Teil unserer Community und lass uns gemeinsam die Skateboarding-Kultur in Furttal stärken!
         </p>
         <button
-          className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded shadow transition"
-          onClick={() => navigate('/kontakt')}
+          className="bg-black hover:bg-white text-white hover:text-black hover:border hover:border-black  font-semibold py-2 px-6 rounded shadow transition"
+          onClick={() => navigate('/mitglied-werden')}
         >
           Mitglied werden
         </button>

@@ -5,13 +5,13 @@ import Header from './components/Header';
 const Bedingungen = () => {
 
     return (
-        <div className="flex flex-col min-h-screen pt-12 px-4 pb-30">
+        <div className="flex flex-col items-center justify-center min-h-screen pt-12">
         <Header />
             <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-left">Mitgliedschaftsbestimmungen</h1>
-            <p className="max-w-lg text-left text-gray-700 mb-8">
+            <p className="max-w-lg text-center text-gray-700 mb-8">
                 Hier findest du die Rechte und Pflichten als Mitglied des Skate Kollektiv Furttal. Bitte lese die Bestimmungen sorgfältig durch, bevor du dich für eine Mitgliedschaft entscheidest.
             </p>
-            <div className="max-w-2xl bg-white text-left rounded " >
+            <div className="max-w-2xl bg-white text-left " >
                 <h2 className="text-xl font-bold mb-4">1. Geltungsbereich</h2>
                 <p className="mb-4">
                     Diese Mitgliedschaftsbestimmungen regeln die Rechte und Pflichten aller Mitglieder des gemeinnützigen Vereins Skate Kollektiv Furttal mit Sitz in 8105 Watt, Regensdorf. Grundlage bilden die vom Verein verabschiedeten Statuten.
@@ -28,13 +28,13 @@ const Bedingungen = () => {
                 <p>Der Verein kann mit Schulen, Gemeinden und Institutionen zusammenarbeiten.</p>
                 <h2 className="text-xl font-bold mb-4">3. Mitgliedschaft</h2>
                 <p className="mb-4">
-                    Mitglied kann jede natürliche oder juristische Person werden, die den Vereinszweck unterstützt. <br />Die Aufnahme erfolgt durch den Vorstand.<br />
-                    Es bestehen folgende Kategorien:
+                    Mitglied kann jede natürliche oder juristische Person werden, die den Vereinszweck unterstützt und die Bestimmungen einhält. Die Aufnahme erfolgt durch den Vorstand.<br />
+                    Es bestehen folgende Kategorien und Mitgliederbeiträge:
                 </p>
                 <ul className="list-disc list-inside mb-4">
-                    <li>Aktivmitglieder</li>
-                    <li>Passivmitglieder</li>   
-                    <li>Ehrenmitglieder</li>   
+                    <li>Aktivmitglieder 200 CHF</li>
+                    <li>Passivmitglieder 100 CHF</li>   
+                    <li>Ehrenmitglieder 50 CHF</li>   
                 </ul>
                 <p className='mb-4'>Die Mitgliedschaft endet durch Austritt, Ausschluss oder Tod bzw. Auflösung juristischer Personen.</p>
                 <h2 className="text-xl font-bold mb-4">4. Rechte der Mitglieder</h2>
@@ -62,7 +62,7 @@ const Bedingungen = () => {
                 </p>
                 <h2 className="text-xl font-bold mb-4">7. Foto- und Videoeinverständnis</h2>
                 <p className="mb-4">
-                    m Rahmen von Vereinsaktivitäten können Fotos und Videos entstehen. Diese dürfen für Vereinszwecke (Website, Social Media, Flyer) verwendet werden, sofern das Mitglied zugestimmt hat.
+                    Im Rahmen von Vereinsaktivitäten können Fotos und Videos entstehen. Diese dürfen für Vereinszwecke (Website, Social Media, Flyer) verwendet werden, sofern das Mitglied zugestimmt hat.
 Bei Minderjährigen ist die Zustimmung der Erziehungsberechtigten erforderlich.
                 </p>
                 <h2 className="text-xl font-bold mb-4">8. Datenschutz</h2>
@@ -89,7 +89,7 @@ Bei Minderjährigen ist die Zustimmung der Erziehungsberechtigten erforderlich.
                 </p>
                 <ul className="list-disc list-inside mb-4">
                     <li>die Richtigkeit der Angaben</li>
-                    <li>die Anerkennung der Statuten</li>
+                    <li>die Anerkennung der <a href="public/data/Statuten.pdf" download='Statuten_SKF.pdf' className="text-black underline">Statuten</a></li>
                     <li>die Zustimmung zu diesen Mitgliedschaftsbestimmungen</li>
                 </ul>
         <Footer />

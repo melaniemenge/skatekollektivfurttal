@@ -89,7 +89,7 @@ Bei Minderjährigen ist die Zustimmung der Erziehungsberechtigten erforderlich.
                 </p>
                 <ul className="list-disc list-inside mb-4">
                     <li>die Richtigkeit der Angaben</li>
-                    <li>die Anerkennung der <a href="public/data/Statuten.pdf" download='Statuten_SKF.pdf' className="text-black underline">Statuten</a></li>
+                    <li>die Anerkennung der <a href="./public/data/Statuten.pdf" download='Statuten_SKF.pdf' className="text-black underline">Statuten</a></li>
                     <li>die Zustimmung zu diesen Mitgliedschaftsbestimmungen</li>
                 </ul>
         <Footer />

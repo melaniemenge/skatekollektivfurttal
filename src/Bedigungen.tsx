@@ -14,7 +14,7 @@ const Bedingungen = () => {
             <div className="max-w-2xl bg-white text-left " >
                 <h2 className="text-xl font-bold mb-4">1. Geltungsbereich</h2>
                 <p className="mb-4">
-                    Diese Mitgliedschaftsbestimmungen regeln die Rechte und Pflichten aller Mitglieder des gemeinnützigen Vereins Skate Kollektiv Furttal mit Sitz in 8105 Watt, Regensdorf. Grundlage bilden die vom Verein verabschiedeten Statuten.
+                    Diese Mitgliedschaftsbestimmungen regeln die Rechte und Pflichten aller Mitglieder des gemeinnützigen Vereins Skate Kollektiv Furttal mit Sitz in 8105 Watt, Regensdorf. Grundlage bilden die vom Verein verabschiedeten <a href="data/Statuten.pdf" download='Statuten_SKF.pdf' className="text-black underline">Statuten</a>.
                 </p>   
                 <h2 className="text-xl font-bold mb-4">2. Vereinszweck</h2>
                 <p className="mb-4">Der Verein verfolgt nicht gewinnorientierte Ziele. Zu den zentralen Zwecken gehören:</p>
@@ -89,7 +89,7 @@ Bei Minderjährigen ist die Zustimmung der Erziehungsberechtigten erforderlich.
                 </p>
                 <ul className="list-disc list-inside mb-4">
                     <li>die Richtigkeit der Angaben</li>
-                    <li>die Anerkennung der <a href="./public/data/Statuten.pdf" download='Statuten_SKF.pdf' className="text-black underline">Statuten</a></li>
+                    <li>die Anerkennung der <a href="data/Statuten.pdf" download='Statuten_SKF.pdf' className="text-black underline">Statuten</a></li>
                     <li>die Zustimmung zu diesen Mitgliedschaftsbestimmungen</li>
                 </ul>
         <Footer />

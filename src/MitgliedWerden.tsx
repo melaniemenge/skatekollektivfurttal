@@ -69,24 +69,24 @@ const MitgliedWerden = () => {
           </div>
           <div className="mb-4">   
             <label className="block mb-1 font-medium" htmlFor="addresse">Addresse (Strassenname, Hausnummer) <span className="text-red-500">*</span></label>
-            <textarea
+            <input
+            type="text"
               id="addresse"
               name="addresse"
               value={form.address}
               onChange={handleChange}
               className="w-full border rounded px-3 py-2"
-              rows={1}
             />
           </div>
           <div className="mb-4">   
             <label className="block mb-1 font-medium" htmlFor="plz">PLZ, Ort <span className="text-red-500">*</span></label>
-            <textarea
+            <input 
+            type="text"
               id="plz"
               name="plz"
               value={form.zipCode}
               onChange={handleChange}
               className="w-full border rounded px-3 py-2"
-              rows={1}
             />
           </div>
           <div className="mb-4">

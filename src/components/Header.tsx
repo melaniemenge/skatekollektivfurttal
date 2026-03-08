@@ -29,6 +29,7 @@ const Header = () => {
                         <span className="block w-6 h-1 bg-white -rotate-45 -translate-y-2"></span>
                     </button>
                     <nav className="flex flex-col items-center space-y-8">
+                        <a href="/" className="text-white text-2xl font-bold hover:text-gray-300">Home</a>
                         <a href="/ueber-uns" className="text-white text-2xl font-bold hover:text-gray-300">Über uns</a>
                         <a href="/projekte-events" className="text-white text-2xl font-bold hover:text-gray-300">Projekte und Events</a>
                         <a href="/mitglied-werden" className="text-white text-2xl font-bold hover:text-gray-300">Mitglied werden</a>

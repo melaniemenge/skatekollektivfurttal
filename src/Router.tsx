@@ -5,6 +5,7 @@ import Impressum from './Impressum';
 import MitgliedWerden from './MitgliedWerden';
 import UeberUns from './UeberUns';  
 import Bedingungen from './Bedigungen';
+import ProjekteEvents from './ProjekteEvents';
 
 function Router() {
   return (
@@ -15,7 +16,8 @@ function Router() {
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/mitglied-werden" element={<MitgliedWerden />} />
         <Route path="/ueber-uns" element={<UeberUns />} />
-        <Route path="/Bedingungen" element={<Bedingungen />} />
+        <Route path="/bedingungen" element={<Bedingungen />} />
+        <Route path="/projekte-events" element={<ProjekteEvents />} />
       </Routes>
     </BrowserRouter>
   );

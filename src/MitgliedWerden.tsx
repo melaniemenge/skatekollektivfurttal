@@ -17,7 +17,7 @@ const MitgliedWerden = () => {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     if (e.target.type === 'checkbox') {
-      setForm({ ...form, [e.target.name]: e.target.checked });
+      setForm({ ...form, [e.target.name]: (e.target as HTMLInputElement).checked });
     } else {
       setForm({ ...form, [e.target.name]: e.target.value });
     }
@@ -56,7 +56,7 @@ const MitgliedWerden = () => {
         </p>
         <form className="mx-auto p-6 bg-white rounded w-full max-w-2xl" onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block mb-1 font-medium" htmlFor="name">Vorname/Nachname</label>
+            <label className="block mb-1 font-medium" htmlFor="name">Vorname/Nachname <span className="text-red-500">*</span></label>
             <input
               type="text"
               id="name"
@@ -68,7 +68,7 @@ const MitgliedWerden = () => {
             />
           </div>
           <div className="mb-4">   
-            <label className="block mb-1 font-medium" htmlFor="addresse">Addresse (Strassenname, Hausnummer)</label>
+            <label className="block mb-1 font-medium" htmlFor="addresse">Addresse (Strassenname, Hausnummer) <span className="text-red-500">*</span></label>
             <textarea
               id="addresse"
               name="addresse"
@@ -79,7 +79,7 @@ const MitgliedWerden = () => {
             />
           </div>
           <div className="mb-4">   
-            <label className="block mb-1 font-medium" htmlFor="plz">PLZ, Ort</label>
+            <label className="block mb-1 font-medium" htmlFor="plz">PLZ, Ort <span className="text-red-500">*</span></label>
             <textarea
               id="plz"
               name="plz"
@@ -90,7 +90,7 @@ const MitgliedWerden = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block mb-1 font-medium" htmlFor="email">E-Mail</label>
+            <label className="block mb-1 font-medium" htmlFor="email">E-Mail <span className="text-red-500">*</span></label>
             <input
               type="email"
               id="email"
@@ -102,7 +102,7 @@ const MitgliedWerden = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block mb-1 font-medium" htmlFor="phone">Telefon</label>
+            <label className="block mb-1 font-medium" htmlFor="phone">Telefon <span className="text-red-500">*</span></label>
             <input
               type="tel"
               id="phone"
@@ -114,7 +114,7 @@ const MitgliedWerden = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block mb-1 font-medium" htmlFor="geburtstag">Geburtstag</label>
+            <label className="block mb-1 font-medium" htmlFor="geburtstag">Geburtstag <span className="text-red-500">*</span></label>
             <input
               type="date"
               id="geburtstag"
@@ -123,6 +123,17 @@ const MitgliedWerden = () => {
               onChange={handleChange}
               className="w-full border rounded px-3 py-2"
               required
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block mb-1 font-medium" htmlFor="message">Nachricht (optional)</label>
+            <textarea
+              id="message"
+              name="message"
+              value={form.message}
+              onChange={handleChange}
+              className="w-full border rounded px-3 py-2"
+              rows={4}
             />
           </div>
           <div className="mb-4">
@@ -135,7 +146,7 @@ const MitgliedWerden = () => {
               className="mr-2 leading-tight w-4 h-4 bg-white border-2 border-black rounded"
               required
             />
-            <span className="text-sm text-gray-700">Ich bestätige, die <a href="/Bedingungen" target="_blank" className="underline" rel="noopener noreferrer">Mitgliedschaftsbedigungen</a> gelesen zu haben und akzeptiere diese.</span>
+            <span className="text-sm text-gray-700">Ich bestätige, die <a href="/bedingungen" target="_blank" className="underline" rel="noopener noreferrer">Mitgliedschaftsbedigungen</a> gelesen zu haben und akzeptiere diese.</span>
           </div>
             
           <button type="submit" className="bg-black hover:bg-white text-white hover:text-black hover:border hover:border-black font-semibold py-2 px-6 rounded w-full">Absenden</button>

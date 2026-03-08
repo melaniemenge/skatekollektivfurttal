@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import skflogo from './assets/SKF-logo.png';
+import Header from './components/Header';
 
 const ContactForm = () => {
   const [form, setForm] = useState({
@@ -38,24 +38,15 @@ const ContactForm = () => {
 
   return (
     <>
-      <section className="flex flex-col items-center justify-center pt-12 pb-8 px-4">
-        <a href="/">
-          <img
-            src={skflogo}
-            alt="SKF logo"
-            className="mb-6 w-64 h-64 object-contain sm:w-40 sm:h-40"
-          />
-        </a>
-      </section>
-      <div className="flex flex-col items-center justify-center min-h-screen ">
+      <Header />
+      <div className="flex flex-col items-center justify-center min-h-screen pt-12">
         <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Kontakt</h1>
         <p className="max-w-lg text-center text-gray-700 mb-8">
-          Willst du Teil unserers Vereins werden oder möchtest du mehr über das Skate Kollektiv Furttal erfahren? Kontaktiere uns gerne über das folgende Formular!
+          Willst du mehr über das Skate Kollektiv Furttal erfahren oder hast andere Anliegen? Kontaktiere uns gerne über das folgende Formular!
         </p>
-
         <form className="mx-auto p-6 bg-white rounded w-full max-w-2xl" onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block mb-1 font-medium" htmlFor="name">Name</label>
+            <label className="block mb-1 font-medium" htmlFor="name">Name <span className="text-red-500">*</span></label>
             <input
               type="text"
               id="name"
@@ -67,7 +58,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block mb-1 font-medium" htmlFor="email">E-Mail</label>
+            <label className="block mb-1 font-medium" htmlFor="email">E-Mail <span className="text-red-500">*</span></label>
             <input
               type="email"
               id="email"
@@ -90,7 +81,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block mb-1 font-medium" htmlFor="message">Nachricht</label>
+            <label className="block mb-1 font-medium" htmlFor="message">Nachricht <span className="text-red-500">*</span></label>
             <textarea
               id="message"
               name="message"
@@ -101,7 +92,7 @@ const ContactForm = () => {
               required
             />
           </div>
-          <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded shadow w-full">Absenden</button>
+          <button type="submit" className="bg-black hover:bg-white text-white hover:text-black hover:border hover:border-black font-semibold py-2 px-6 rounded w-full">Absenden</button>
         </form>
       </div>
     </>

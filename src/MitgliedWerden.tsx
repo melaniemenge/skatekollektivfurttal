@@ -68,22 +68,22 @@ const MitgliedWerden = () => {
             />
           </div>
           <div className="mb-4">   
-            <label className="block mb-1 font-medium" htmlFor="addresse">Addresse (Strassenname, Hausnummer) <span className="text-red-500">*</span></label>
+            <label className="block mb-1 font-medium" htmlFor="address">Addresse (Strassenname, Hausnummer) <span className="text-red-500">*</span></label>
             <input
-            type="text"
-              id="addresse"
-              name="addresse"
+              type="text"
+              id="address"
+              name="address"
               value={form.address}
               onChange={handleChange}
               className="w-full border rounded px-3 py-2"
             />
           </div>
           <div className="mb-4">   
-            <label className="block mb-1 font-medium" htmlFor="plz">PLZ, Ort <span className="text-red-500">*</span></label>
+            <label className="block mb-1 font-medium" htmlFor="zipCode">PLZ, Ort <span className="text-red-500">*</span></label>
             <input 
-            type="text"
-              id="plz"
-              name="plz"
+              type="text"
+              id="zipCode"
+              name="zipCode"
               value={form.zipCode}
               onChange={handleChange}
               className="w-full border rounded px-3 py-2"
@@ -114,11 +114,11 @@ const MitgliedWerden = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block mb-1 font-medium" htmlFor="geburtstag">Geburtstag <span className="text-red-500">*</span></label>
+            <label className="block mb-1 font-medium" htmlFor="birthday">Geburtsdatum <span className="text-red-500">*</span></label>
             <input
               type="date"
-              id="geburtstag"
-              name="geburtstag"
+              id="birthday"
+              name="birthday"
               value={form.birthday}
               onChange={handleChange}
               className="w-full border rounded px-3 py-2"
@@ -146,7 +146,7 @@ const MitgliedWerden = () => {
               className="mr-2 leading-tight w-4 h-4 bg-white border-2 border-black rounded"
               required
             />
-            <span className="text-sm text-gray-700">Ich bestätige, die <a href="/bedingungen" target="_blank" className="underline" rel="noopener noreferrer">Mitgliedschaftsbedigungen</a> gelesen zu haben und akzeptiere diese.</span>
+            <span className="text-sm text-gray-700">Ich bestätige, die <a href="/bedingungen" target="_blank" className="underline" rel="noopener noreferrer">Mitgliedschaftsbedigungen</a> gelesen zu haben und akzeptiere diese. <span className="text-red-500">*</span></span>
           </div>
             
           <button type="submit" className="bg-black hover:bg-white text-white hover:text-black hover:border hover:border-black font-semibold py-2 px-6 rounded w-full">Absenden</button>

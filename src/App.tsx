@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './App.css'
 import Footer from './components/Footer';
 import Header from './components/Header';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const navigate = useNavigate();

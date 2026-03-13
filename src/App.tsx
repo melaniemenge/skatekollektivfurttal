@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './App.css'
 import Footer from './components/Footer';
 import Header from './components/Header';
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   const navigate = useNavigate();
@@ -25,7 +26,7 @@ function App() {
           Mitglied werden
         </button>
       </section>
-    
+      <Analytics />
       {/* 
       <section className="flex flex-col items-center py-12 px-4 bg-white">
         <h2 className="text-2xl font-bold mb-4 text-center">Unterstütze uns als Sponsor</h2>

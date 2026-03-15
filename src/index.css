@@ -18,6 +18,13 @@
   font-weight: 700;
   font-style: normal;
 }
+.league-spartan-900> {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
 a {
   font-weight: 500;
 }
@@ -35,12 +42,12 @@ body {
 }
 
 h1 {
-  font-family: "Passion One", sans-serif;
-  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 900;
   /* Header styles for h2-h6 */
   h2, h3, h4, h5, h6 {
-    font-family: "Passion One", sans-serif;
-    font-weight: 700;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 900;
     color: #1a1a1a;
   }
   font-size: 3.2em;
@@ -49,11 +56,11 @@ h1 {
 }
 
 h2 {
-  font-family: "Passion One", sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 
 h3 {
-  font-family: "Passion One", sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 
 button {

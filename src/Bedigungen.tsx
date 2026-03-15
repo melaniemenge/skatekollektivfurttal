@@ -34,7 +34,7 @@ const Bedingungen = () => {
                 <ul className="list-disc list-inside mb-4">
                     <li>Aktivmitglieder 200 CHF</li>
                     <li>Passivmitglieder 100 CHF</li>   
-                    <li>Ehrenmitglieder 50 CHF</li>   
+                    <li>Jugendliche und Studierende 50 CHF</li>   
                 </ul>
                 <p className='mb-4'>Die Mitgliedschaft endet durch Austritt, Ausschluss oder Tod bzw. Auflösung juristischer Personen.</p>
                 <h2 className="text-xl font-bold mb-4">4. Rechte der Mitglieder</h2>

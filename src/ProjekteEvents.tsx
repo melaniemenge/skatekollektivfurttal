@@ -1,7 +1,7 @@
 
 import Footer from './components/Footer';
 import Header from './components/Header';
-import { Card, CardHeader, CardBody, CardFooter } from "@heroui/card";
+import { Card, CardHeader, CardBody } from "@heroui/card";
 
 const ProjekteEvents = () => {
 

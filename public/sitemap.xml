@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://skatekollektivfurttal.ch/</loc>
+    <loc>https://www.skatekollektivfurttal.ch/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://skatekollektivfurttal.ch/kontakt</loc>
+    <loc>https://www.skatekollektivfurttal.ch/kontakt</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://skatekollektivfurttal.ch/ueber-uns</loc>
+    <loc>https://www.skatekollektivfurttal.ch/ueber-uns</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://skatekollektivfurttal.ch/projekte-events</loc>
+    <loc>https://www.skatekollektivfurttal.ch/projekte-events</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://skatekollektivfurttal.ch/mitglied-werden</loc>
+    <loc>https://www.skatekollektivfurttal.ch/mitglied-werden</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://skatekollektivfurttal.ch/impressum</loc>
+    <loc>https://www.skatekollektivfurttal.ch/impressum</loc>
     <priority>0.5</priority>
   </url>
 </urlset>

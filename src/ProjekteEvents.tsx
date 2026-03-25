@@ -3,10 +3,13 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import { Card, CardHeader, CardBody } from "@heroui/card";
 
+const BASE_URL = 'https://www.skatekollektivfurttal.ch';
 const ProjekteEvents = () => {
 
     return (
+            
         <div className="flex flex-col content-center justify-content min-h-screen pt-12 px-4">
+            <link rel="canonical" href={`${BASE_URL}${location.pathname}`} />
             <Header />
             <div className="flex flex-col items-center justify-center pt-12">
                 <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Projekte & Events</h1>

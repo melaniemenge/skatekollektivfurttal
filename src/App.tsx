@@ -4,6 +4,7 @@ import './App.css'
 import Footer from './components/Footer';
 import Header from './components/Header';
 import { Analytics } from "@vercel/analytics/react"
+import { Helmet } from 'react-helmet-async';
 
 function App() {
   const navigate = useNavigate();
@@ -11,6 +12,12 @@ function App() {
   return (
     <>
       {/* Hero Section */}
+
+      <Helmet>
+        <link rel="canonical" href="https://www.skatekollektivfurttal.ch/" />
+        <title>Skatekollektiv Furttal</title>
+        <meta name="description" content="Ein Verein für Skateboarder in Furttal" />
+      </Helmet>
       <section className="flex flex-col items-center justify-center pt-12 pb-8 px-4">
         <Header />
         <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-center">Skate Kollektiv Furttal</h1>

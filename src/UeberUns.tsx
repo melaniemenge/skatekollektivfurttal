@@ -2,10 +2,12 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
 
+const BASE_URL = 'https://www.skatekollektivfurttal.ch';
 const UeberUns = () => {
     return (
         <div className="min-h-screen flex flex-col">
             < Header/>
+            <link rel="canonical" href={`${BASE_URL}${location.pathname}`} />
             <main className="flex-1">
                 <h1 className="text-3xl text-center font-bold mt-12">Über uns</h1>
                 <div className="px-6 md:px-12 lg:px-24 mt-8 text-foreground text-left max-w-3xl mx-auto">

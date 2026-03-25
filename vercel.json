@@ -3,5 +3,19 @@
   "cleanUrls": true,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index" }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "skatekollektivfurttal.ch" }],
+      "destination": "https://www.skatekollektivfurttal.ch/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "skatekollektivfurttal.vercel.app" }],
+      "destination": "https://www.skatekollektivfurttal.ch/$1",
+      "permanent": true
+    }
   ]
 }

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
+const BASE_URL = 'https://www.skatekollektivfurttal.ch';
 const MitgliedWerden = () => {
   const [form, setForm] = useState({
     name: '',
@@ -49,6 +50,7 @@ const MitgliedWerden = () => {
     return (
     <>
       <Header />
+      <link rel="canonical" href={`${BASE_URL}${location.pathname}`} />
       <div className="flex flex-col items-center justify-center min-h-screen pt-12">
         <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Mitglied werden</h1>
         <p className="max-w-lg text-center text-gray-700 mb-8">

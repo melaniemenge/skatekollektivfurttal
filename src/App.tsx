@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import { Analytics } from "@vercel/analytics/react"
 import { Helmet } from 'react-helmet-async';
+import qrcode from './assets/qr-code.png';
 
 function App() {
   const navigate = useNavigate();
@@ -34,21 +35,25 @@ function App() {
         </button>
       </section>
       <Analytics />
-      {/* 
       <section className="flex flex-col items-center py-12 px-4 bg-white">
         <h2 className="text-2xl font-bold mb-4 text-center">Unterstütze uns als Sponsor</h2>
         <p className="max-w-lg text-center text-gray-700 mb-4">
           Deine Unterstützung hilft uns, Events zu organisieren, neue Skate-Spots zu schaffen und die Community zu stärken. Vielen Dank für deinen Beitrag!
         </p>
-        <div className="bg-gray-50 border rounded p-6 max-w-md w-full">
+        <div className="bg-white border rounded p-6 max-w-md w-full flex flex-col items-center">
           <h3 className="font-semibold mb-2">Zahlungsinformationen:</h3>
-          <p className="mb-1"><span className="font-medium">IBAN:</span> CH12 3456 7890 1234 5678 9</p>
+          <p className="mb-1"><span className="font-medium">IBAN:</span> CH94 0070 0114 9053 1278 1</p>
           <p className="mb-1"><span className="font-medium">Bank:</span> Zürcher Kantonalbank</p>
           <p className="mb-1"><span className="font-medium">Empfänger:</span> Skate Kollektiv Furttal</p>
           <p className="text-xs text-gray-500 mt-2">Bitte als Vermerk "Sponsoring" angeben.</p>
+          <img
+            src={qrcode}
+            alt="QR-Code für Sponsoring Zahlung"
+            className="mt-4 w-48 h-48 object-contain rounded"
+          />
+          <p className="text-xs text-gray-500 mt-2">QR-Code für bequeme Überweisung</p>
         </div>
       </section> 
-      */} 
       <Footer />
     </>
   )

@@ -6,6 +6,7 @@ import MitgliedWerden from './MitgliedWerden';
 import UeberUns from './UeberUns';  
 import Bedingungen from './Bedigungen';
 import ProjekteEvents from './ProjekteEvents';
+import Sponsoring from './Sponsoring';
 
 function Router() {
   return (
@@ -18,6 +19,7 @@ function Router() {
         <Route path="/ueber-uns" element={<UeberUns />} />
         <Route path="/bedingungen" element={<Bedingungen />} />
         <Route path="/projekte-events" element={<ProjekteEvents />} />
+        <Route path="/sponsoring" element={<Sponsoring />} />
       </Routes>
     </BrowserRouter>
   );

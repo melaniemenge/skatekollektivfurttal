@@ -33,6 +33,7 @@ const Header = () => {
                         <a href="/ueber-uns" className="text-white text-2xl font-bold hover:text-gray-300">Über uns</a>
                         <a href="/projekte-events" className="text-white text-2xl font-bold hover:text-gray-300">Projekte und Events</a>
                         <a href="/mitglied-werden" className="text-white text-2xl font-bold hover:text-gray-300">Mitglied werden</a>
+                        <a href="/sponsoring" className="text-white text-2xl font-bold hover:text-gray-300">Sponsoring</a>
                         <a href="/kontakt" className="text-white text-2xl font-bold hover:text-gray-300">Kontakt</a>
                     </nav>
                 </div>

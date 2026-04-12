@@ -15,8 +15,17 @@ const Sponsoring = () => {
             <p className="max-w-lg text-center text-gray-700 mb-8">
                 Du möchtest das Skate Kollektiv Furttal unterstützen und Teil unserer Mission sein, die Skateboarding-Kultur in der Region zu fördern? Wir freuen uns über jedes Sponsoring, sei es finanziell oder durch Sachspenden! 
             </p>
+            <a
+                href='data/Sponsoringkonzept.pdf'
+                download
+                className="mt-6 mb-2 inline-flex items-center px-6 py-3 bg-black hover:bg-white text-white hover:text-black hover:border font-semibold rounded shadow transition-colors duration-200"
+                style={{ textDecoration: 'none' }}
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" /></svg>
+                Sponsoring-Konzept als PDF
+            </a>
             
-            <p className="font-bold">Skate Kollektiv Furttal</p>
+            <p className="font-bold mt-16">Skate Kollektiv Furttal</p>
             <p>Zürcher Kantonalbank</p>
             <p>IBAN: CH94 0070 0114 9053 1278 1</p>
             <p className="mt-4">QR-Code für Spenden:</p>
